@@ -1,3 +1,56 @@
-#product {}
+@media (max-width: 1580px) {
+    /* for devices samller than 1580px */
 
+#discounts{
+  background-color: orange;
+  font-variant: small-caps;
+  text-align: center;
+  color: blue;
+}
+.navbar-brand {
+    font-family: cursive; 
+    padding: 5px;
+    margin: 5px;
+}
+#texts {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    background-color: yellow;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+#aboutus {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: yellow;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.aboutus2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+#terms {
+    color:blue;
+    flex-grow: 1;
+    flex-basis: 200px;
+    background-color: yellow;
+}
+.conditions {
+    color: blue;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.lists{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
 
+}
+  
